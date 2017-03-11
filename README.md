@@ -1,2 +1,2 @@
 # SPMExploration
-An exploration project using Swift Package Manger for iOS
+An exploration project using Swift Package Manager for iOS
