@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_17"
+               BlueprintIdentifier = "OBJ_22"
                BuildableName = "SwiftyJSON.framework"
                BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:Packages.xcodeproj">
@@ -28,7 +28,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_24"
+               BlueprintIdentifier = "OBJ_29"
+               BuildableName = "IBDesignableDependency.framework"
+               BlueprintName = "IBDesignableDependency"
+               ReferencedContainer = "container:Packages.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_38"
                BuildableName = "Packages.framework"
                BlueprintName = "Packages"
                ReferencedContainer = "container:Packages.xcodeproj">
@@ -59,7 +73,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_17"
+            BlueprintIdentifier = "OBJ_22"
             BuildableName = "SwiftyJSON.framework"
             BlueprintName = "SwiftyJSON"
             ReferencedContainer = "container:Packages.xcodeproj">

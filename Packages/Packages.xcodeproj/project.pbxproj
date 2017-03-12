@@ -7,42 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_22 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftyJSON.swift */; };
-		OBJ_29 /* ForceTheBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ForceTheBuild.swift */; };
-		OBJ_31 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* SwiftyJSON.framework */; };
+		OBJ_27 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SwiftyJSON.swift */; };
+		OBJ_34 /* NickzillaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NickzillaButton.swift */; };
+		OBJ_35 /* NickzillaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* NickzillaTextField.swift */; };
+		OBJ_36 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* UIColorExtensions.swift */; };
+		OBJ_43 /* ForceTheBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ForceTheBuild.swift */; };
+		OBJ_45 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SwiftyJSON.framework */; };
+		OBJ_46 /* IBDesignableDependency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* IBDesignableDependency.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01E5CF7B1E74AA5F00DBC309 /* PBXContainerItemProxy */ = {
+		01CDCD401E74CDE600A6ABD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_17;
+			remoteGlobalIDString = OBJ_22;
 			remoteInfo = SwiftyJSON;
+		};
+		01CDCD411E74CDE600A6ABD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_29;
+			remoteInfo = IBDesignableDependency;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_13 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		OBJ_15 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_16 /* Packages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Packages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_13 /* NickzillaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickzillaButton.swift; sourceTree = "<group>"; };
+		OBJ_14 /* NickzillaTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickzillaTextField.swift; sourceTree = "<group>"; };
+		OBJ_15 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		OBJ_17 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		OBJ_19 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_20 /* IBDesignableDependency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBDesignableDependency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_21 /* Packages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Packages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* ForceTheBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTheBuild.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_23 /* Frameworks */ = {
+		OBJ_28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_30 /* Frameworks */ = {
+		OBJ_37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_31 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_45 /* SwiftyJSON.framework in Frameworks */,
+				OBJ_46 /* IBDesignableDependency.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,25 +82,38 @@
 		OBJ_11 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* SwiftyJSON 3.1.4 */,
+				OBJ_12 /* IBDesignableDependency 1.0.1 */,
+				OBJ_16 /* SwiftyJSON 3.1.4 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* SwiftyJSON 3.1.4 */ = {
+		OBJ_12 /* IBDesignableDependency 1.0.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* SwiftyJSON.swift */,
+				OBJ_13 /* NickzillaButton.swift */,
+				OBJ_14 /* NickzillaTextField.swift */,
+				OBJ_15 /* UIColorExtensions.swift */,
+			);
+			name = "IBDesignableDependency 1.0.1";
+			path = ".build/checkouts/IBDesignableDependency.git--5811002029440158298/Sources";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* SwiftyJSON 3.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* SwiftyJSON.swift */,
 			);
 			name = "SwiftyJSON 3.1.4";
 			path = ".build/checkouts/SwiftyJSON.git-3043514560129222422/Source";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_14 /* Products */ = {
+		OBJ_18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_15 /* SwiftyJSON.framework */,
-				OBJ_16 /* Packages.framework */,
+				OBJ_19 /* SwiftyJSON.framework */,
+				OBJ_20 /* IBDesignableDependency.framework */,
+				OBJ_21 /* Packages.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -89,7 +125,7 @@
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_11 /* Dependencies */,
-				OBJ_14 /* Products */,
+				OBJ_18 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -113,12 +149,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_17 /* SwiftyJSON */ = {
+		OBJ_22 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_18 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				OBJ_21 /* Sources */,
-				OBJ_23 /* Frameworks */,
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,24 +162,41 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = OBJ_15 /* SwiftyJSON.framework */;
+			productReference = OBJ_19 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_24 /* Packages */ = {
+		OBJ_29 /* IBDesignableDependency */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "Packages" */;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "IBDesignableDependency" */;
 			buildPhases = (
-				OBJ_28 /* Sources */,
-				OBJ_30 /* Frameworks */,
+				OBJ_33 /* Sources */,
+				OBJ_37 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_32 /* PBXTargetDependency */,
+			);
+			name = IBDesignableDependency;
+			productName = IBDesignableDependency;
+			productReference = OBJ_20 /* IBDesignableDependency.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_38 /* Packages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXNativeTarget "Packages" */;
+			buildPhases = (
+				OBJ_42 /* Sources */,
+				OBJ_44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_47 /* PBXTargetDependency */,
+				OBJ_48 /* PBXTargetDependency */,
 			);
 			name = Packages;
 			productName = Packages;
-			productReference = OBJ_16 /* Packages.framework */;
+			productReference = OBJ_21 /* Packages.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -162,45 +215,61 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_14 /* Products */;
+			productRefGroup = OBJ_18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_17 /* SwiftyJSON */,
-				OBJ_24 /* Packages */,
+				OBJ_22 /* SwiftyJSON */,
+				OBJ_29 /* IBDesignableDependency */,
+				OBJ_38 /* Packages */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_21 /* Sources */ = {
+		OBJ_26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_22 /* SwiftyJSON.swift in Sources */,
+				OBJ_27 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_28 /* Sources */ = {
+		OBJ_33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_29 /* ForceTheBuild.swift in Sources */,
+				OBJ_34 /* NickzillaButton.swift in Sources */,
+				OBJ_35 /* NickzillaTextField.swift in Sources */,
+				OBJ_36 /* UIColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_43 /* ForceTheBuild.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_32 /* PBXTargetDependency */ = {
+		OBJ_47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_17 /* SwiftyJSON */;
-			targetProxy = 01E5CF7B1E74AA5F00DBC309 /* PBXContainerItemProxy */;
+			target = OBJ_22 /* SwiftyJSON */;
+			targetProxy = 01CDCD401E74CDE600A6ABD1 /* PBXContainerItemProxy */;
+		};
+		OBJ_48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_29 /* IBDesignableDependency */;
+			targetProxy = 01CDCD411E74CDE600A6ABD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_19 /* Debug */ = {
+		OBJ_24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -221,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_20 /* Release */ = {
+		OBJ_25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -239,48 +308,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGET_NAME = SwiftyJSON;
-			};
-			name = Release;
-		};
-		OBJ_26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Packages.xcodeproj/Packages_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Packages;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = Packages;
-			};
-			name = Debug;
-		};
-		OBJ_27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Packages.xcodeproj/Packages_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Packages;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = Packages;
 			};
 			name = Release;
 		};
@@ -298,14 +325,56 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
+		};
+		OBJ_31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Packages.xcodeproj/IBDesignableDependency_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = IBDesignableDependency;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = IBDesignableDependency;
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Packages.xcodeproj/IBDesignableDependency_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = IBDesignableDependency;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = IBDesignableDependency;
+			};
+			name = Release;
 		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -319,8 +388,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -328,18 +397,55 @@
 			};
 			name = Release;
 		};
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Packages.xcodeproj/Packages_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Packages;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = Packages;
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Packages.xcodeproj/Packages_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Packages;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGET_NAME = Packages;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_18 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_19 /* Debug */,
-				OBJ_20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "Packages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -349,11 +455,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "Packages" */ = {
+		OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_26 /* Debug */,
-				OBJ_27 /* Release */,
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_30 /* Build configuration list for PBXNativeTarget "IBDesignableDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_39 /* Build configuration list for PBXNativeTarget "Packages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

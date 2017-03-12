@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CDCD4A1E74CDF700A6ABD1 /* IBDesignableDependency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CDCD471E74CDF700A6ABD1 /* IBDesignableDependency.framework */; };
+		01CDCD4B1E74CDF700A6ABD1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CDCD451E74CDF700A6ABD1 /* SwiftyJSON.framework */; };
 		01E5CF471E74A8AC00DBC309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5CF461E74A8AC00DBC309 /* AppDelegate.swift */; };
 		01E5CF491E74A8AC00DBC309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5CF481E74A8AC00DBC309 /* ViewController.swift */; };
 		01E5CF4C1E74A8AC00DBC309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E5CF4A1E74A8AC00DBC309 /* Main.storyboard */; };
@@ -21,21 +23,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 01E5CF741E74AA3300DBC309 /* Packages.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_24;
+			remoteGlobalIDString = OBJ_38;
 			remoteInfo = Packages;
 		};
-		0143BC591E74AAFB005CEFA6 /* PBXContainerItemProxy */ = {
+		01CDCD441E74CDF700A6ABD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01E5CF741E74AA3300DBC309 /* Packages.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = OBJ_15;
+			remoteGlobalIDString = OBJ_19;
 			remoteInfo = SwiftyJSON;
 		};
-		0143BC5B1E74AAFB005CEFA6 /* PBXContainerItemProxy */ = {
+		01CDCD461E74CDF700A6ABD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 01E5CF741E74AA3300DBC309 /* Packages.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = OBJ_16;
+			remoteGlobalIDString = OBJ_20;
+			remoteInfo = IBDesignableDependency;
+		};
+		01CDCD481E74CDF700A6ABD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E5CF741E74AA3300DBC309 /* Packages.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_21;
 			remoteInfo = Packages;
 		};
 		01E5CF581E74A8AC00DBC309 /* PBXContainerItemProxy */ = {
@@ -76,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CDCD4A1E74CDF700A6ABD1 /* IBDesignableDependency.framework in Frameworks */,
+				01CDCD4B1E74CDF700A6ABD1 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +162,9 @@
 		01E5CF751E74AA3300DBC309 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0143BC5A1E74AAFB005CEFA6 /* SwiftyJSON.framework */,
-				0143BC5C1E74AAFB005CEFA6 /* Packages.framework */,
+				01CDCD451E74CDF700A6ABD1 /* SwiftyJSON.framework */,
+				01CDCD471E74CDF700A6ABD1 /* IBDesignableDependency.framework */,
+				01CDCD491E74CDF700A6ABD1 /* Packages.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,18 +282,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0143BC5A1E74AAFB005CEFA6 /* SwiftyJSON.framework */ = {
+		01CDCD451E74CDF700A6ABD1 /* SwiftyJSON.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SwiftyJSON.framework;
-			remoteRef = 0143BC591E74AAFB005CEFA6 /* PBXContainerItemProxy */;
+			remoteRef = 01CDCD441E74CDF700A6ABD1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		0143BC5C1E74AAFB005CEFA6 /* Packages.framework */ = {
+		01CDCD471E74CDF700A6ABD1 /* IBDesignableDependency.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IBDesignableDependency.framework;
+			remoteRef = 01CDCD461E74CDF700A6ABD1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		01CDCD491E74CDF700A6ABD1 /* Packages.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Packages.framework;
-			remoteRef = 0143BC5B1E74AAFB005CEFA6 /* PBXContainerItemProxy */;
+			remoteRef = 01CDCD481E74CDF700A6ABD1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
